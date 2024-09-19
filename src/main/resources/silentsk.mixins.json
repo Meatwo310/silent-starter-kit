@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.meatwo310.silentsk.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "silentsk.refmap.json",
+  "mixins": [
+    "CommandStarterkitMixin",
+    "StarterGearFunctionsMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
